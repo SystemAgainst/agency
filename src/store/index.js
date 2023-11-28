@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 
-export const store = defineStore('adsList', {
+export const useAdsStore = defineStore('adsList', {
     // state
     state: () => ({
         adsList: JSON.parse(localStorage.getItem("my-ads")) ?? [],
