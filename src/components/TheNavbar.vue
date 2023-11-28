@@ -50,7 +50,7 @@
         </div>
 
         <div>
-          <router-link to="/new" class="bg-indigo-500 text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-indigo-400">
+          <router-link to="/ads" class="bg-indigo-500 text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-indigo-400">
             <span class="font-bold text-xl mr-1">+</span>
             New Client
           </router-link>

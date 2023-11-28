@@ -11,12 +11,12 @@ export const router = createRouter({
             component: AdsListView,
         },
         {
-            path: "/new",
+            path: "/ads",
             name: "NewAdsView",
             component: () => import("../views/NewAdsView.vue"),
         },
         {
-            path: "/edit", // temp decision
+            path: "/edit/:id", // temp decision
             name: "EditAdsView",
             component: () => import("../views/EditAdsView.vue"),
             // props: true, // add props to pass id

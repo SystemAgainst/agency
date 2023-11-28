@@ -23,6 +23,7 @@ const resetForm = () => {
 
 const handleSubmit = () => {
   adsStore.addAds({
+    id: Date.now().toString(),
     name: name,
     inn: inn,
     address: address,
@@ -31,9 +32,9 @@ const handleSubmit = () => {
     correspondentAccount: correspondentAccount,
   });
 
-  resetForm();
+  // resetForm();
 
-  router.push('/');
+  router.push('/ads-list');
 };
 </script>
 

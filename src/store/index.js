@@ -3,8 +3,7 @@ import { defineStore } from 'pinia'
 export const useAdsStore = defineStore('adsList', {
     // state
     state: () => ({
-        adsList: JSON.parse(localStorage.getItem("my-ads")) ?? [],
-        id: 0,
+        adsList: JSON.parse(localStorage.getItem("adsData")) ?? [],
     }),
     // getters
     getters: {
